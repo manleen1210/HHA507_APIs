@@ -6,11 +6,9 @@ Created on Sun Oct  3 21:18:03 2021
 """
 """ 
 The following API provides research information on topics relating to physics,
- mathematics, quantitative finance, and economics. To perform a GET request, 
- documentation (found here: https://arxiv.org/help/api/user-manual) says that 
- the url that can be used is in the form 
- http://export.arxiv.org/api/{method_name}?{parameters}. Here, the method_name=query 
- and multiple parameteres can be defined
+ mathematics, quantitative finance, and economics. In this code I searched for research related 
+ to differentiation. I asked to start at index = 0 and find a maximum of 20 results. There are no API keys/secrets 
+ or additional authorizations required to connect to this API.
  
 """
 import requests
